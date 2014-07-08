@@ -1,0 +1,42 @@
+{
+  "name": "bloody-streamtimer",
+  "version": "0.0.0",
+  "description": "stream-based timer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bloody-animationframe": "^0.0.2",
+    "bloody-stream": "^0.0.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.3"
+  },
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/streamtimer.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/streamtimer/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/streamtimer",
+  "testling": {
+    "files": "test/**.js",
+    "browsers": [
+      "ie/8..10",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/6..latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/latest"
+    ]
+  }
+}
